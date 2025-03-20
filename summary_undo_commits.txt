@@ -1,0 +1,18 @@
+How to undo commits and restoring file versions in Git: Key takeaways
+      1.​ Most common commands are git revert, git checkout, and git
+          reset.
+      2.​ git revert is more suitable for public or shared repositories, and git
+          checkout and git reset is suitable for private repositories.
+      3.​ git revert and git checkout does not modify existing commit history,
+          but git reset does.
+
+
+
+Useful commands:
+      1.​git revert commit_id
+      2.​git reset –hard commit_id
+      3.​git reset –soft commit_id
+      4.​ git commit –amend
+      5.​git checkout commit_id
+      6.​git checkout commit_id path/to/file
+

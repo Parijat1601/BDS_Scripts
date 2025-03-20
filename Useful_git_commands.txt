@@ -1,0 +1,51 @@
+Useful Git commands:
+git init
+
+git add –A
+
+git commit –m “a message”
+
+git commit -a -m "message"
+
+git push
+
+git pull
+
+git status
+
+git log
+
+git show
+
+git diff
+
+git diff HEAD
+
+git diff HEAD~1 HEAD
+
+git diff --stat <sha1> <sha2>
+
+git clone
+
+git remote
+
+git fork
+
+git revert
+
+git reset
+
+git checkout
+
+git branch
+
+git merge
+
+git rebase
+
+git reflog
+
+git stash
+
+git commit --amend
+
